@@ -1,0 +1,16 @@
+.LoadMoreBtn {
+  display: block;
+  margin: 8px auto;
+  padding: 12px 24px;
+  background: #4a56a6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 160px;
+}
+
+.LoadMoreBtn:hover {
+  opacity: 0.9;
+}

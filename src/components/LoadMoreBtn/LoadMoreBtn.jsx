@@ -1,8 +1,9 @@
-// LoadMoreBtn.jsx
+// src/components/LoadMoreBtn/LoadMoreBtn.jsx
+import css from "./LoadMoreBtn.module.css";
 
-export default function LoadMoreBtn({ onClick }) {
+export default function LoadMoreBtn({ onClick, ref }) {
   return (
-    <button className="LoadMoreBtn" onClick={onClick}>
+    <button className={css.LoadMoreBtn} onClick={onClick} ref={ref}>
       Load more
     </button>
   );

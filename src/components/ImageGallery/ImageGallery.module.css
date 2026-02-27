@@ -1,0 +1,27 @@
+.ImageGallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+
+  list-style: none;
+  padding: 0 16px;
+  margin: 6px 0;
+}
+
+@media (max-width: 1200px) {
+  .ImageGallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .ImageGallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .ImageGallery {
+    grid-template-columns: 1fr;
+  }
+}

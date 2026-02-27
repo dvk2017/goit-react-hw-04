@@ -1,0 +1,20 @@
+/* src/components/ImageCard/ImageCard.module.css */
+
+.ImageCard {
+  /* overflow: hidden; */
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: zoom-in;
+}
+
+.ImageCard img {
+  width: 100%;
+  height: calc((100vh - 160.4px) / 3);
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.ImageCard img:hover {
+  transform: scale(1.05);
+}

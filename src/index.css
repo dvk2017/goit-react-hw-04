@@ -18,6 +18,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -38,4 +44,17 @@ ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  background-color: #ffffff;
+}
+
+body {
+  padding-top: 60px; /* Висота хедера */
 }

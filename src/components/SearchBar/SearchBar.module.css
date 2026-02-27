@@ -1,0 +1,31 @@
+.SearchBar {
+  background: #3840a6;
+  padding: 4px 4px 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.SearchForm {
+  display: flex;
+  width: 600px;
+  height: 44px;
+  /* gap: 2px; */
+}
+
+.SearchFormInput {
+  flex: 1;
+  padding: 0 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px 0 0 6px;
+}
+
+.SearchFormButton {
+  padding: 0 16px;
+  background: #4a56a6;
+  color: white;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
